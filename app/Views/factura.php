@@ -13,6 +13,6 @@
         <h1>Factura Comercial</h1>
         <p>Generada automáticamente con DomPDF</p>
     </div>
-    <p>Este es el diseño que hemos separado de la lógica.</p>
+    <p>Este es el diseño que hemos separado de la lógica</p>
 </body>
 </html>
