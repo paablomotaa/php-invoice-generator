@@ -1,0 +1,17 @@
+{
+    "name": "pablo/facturador",
+    "authors": [
+        {
+            "name": "Pablo Mota",
+            "email": "69493409+paablomotaa@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "dompdf/dompdf": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
