@@ -1,0 +1,36 @@
+#video-fondo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+body{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+}
+h1{
+    color: white;
+}
+.card1{
+    background-color: white;
+    position: fixed;
+    top: 10%;
+    width: 50%;
+    border: 3px solid white;
+    border-radius: 100px;
+}
+.column{
+    float: left;
+    width: 50%
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
