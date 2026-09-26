@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>HTML</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+    <video autoplay loop muted playsinline id="video-fondo">
+        <source src="media/background.mp4" type="video/mp4">
+        Tu navegador no soporta videos HTML5.
+    </video>
+    <h1>PDF Generator</h1>
+    <div class="card1">
+        <p>Generador de facturas gratuito.</p>
+        <p>Este código pertenece al autor, cualquier copia del mismo puede ser denunciada</p>
+        <form action="">
+            <div class="column">
+                <label for="fname">NIF: </label>
+                <input type="text" id="fname" name="fname" value=""><br><br>
+                <label for="direction">Dirección: </label>
+                <input type="text" id="lname" name="lname" value=""><br><br>
+                <label for="direction">Fecha: </label>
+                <input type="text" id="lname" name="lname" value=""><br><br>
+            </div>
+            <div class="row">
+                <label for="lname">Nombre: </label>
+                <input type="text" id="lname" name="lname" value=""><br><br>
+                <label for="direction">Importe: </label>
+                <input type="text" id="lname" name="lname" value=""><br><br>
+            </div>
+            <input type="submit" value="Generate">
+        </form>
+        <p> </p>
+    </div>
+</body>
+</html>

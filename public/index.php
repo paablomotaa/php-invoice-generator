@@ -11,7 +11,11 @@ $uri = str_replace('/facturador/public', '', $uri);
 if ($uri === '/generar') {
     $controlador = new \App\Controllers\FacturaController();
     $controlador->generar();
+} elseif ($uri === '/' || $uri === '') {
+    // Si la ruta está vacía (página principal), llamamos al nuevo controlador
+    $controlador = new \App\Controllers\InicioController();
+    $controlador->index();
 } else {
-    echo "<h1>Bienvenido al SaaS de Facturas</h1>";
-    echo "<p>Haz clic aquí para <a href='/facturador/public/generar'>Generar el PDF</a>.</p>";
+    // Si escriben una URL que no existe
+    echo "<h1>404 - Página no encontrada</h1>";
 }
