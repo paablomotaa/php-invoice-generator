@@ -13,7 +13,7 @@
     <nav class="navbar">
         <div class="nav-logo">PHP invoice generator</div>
         <ul class="nav-links">
-            <li><a href="factura.html">Inicio</a></li>
+            <li><a href="/facturador/public">Inicio</a></li>
             <li><a href="#">Mis Facturas</a></li>
             <li><a href="#">Contacto</a></li>
         </ul>
