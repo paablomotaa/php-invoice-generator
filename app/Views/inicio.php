@@ -1,21 +1,31 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-  <meta charset="utf-8">
-  <title>HTML</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/estilo.css">
+    <meta charset="utf-8">
+    <title>FactGen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/navbar.css">
 </head>
 
 <body>
+    <nav class="navbar">
+        <div class="nav-logo">PHP invoice generator</div>
+        <ul class="nav-links">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Mis Facturas</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
     <video autoplay loop muted playsinline id="video-fondo">
-        <source src="media/background.mp4" type="video/mp4">
+        <source src="background.mp4" type="video/mp4">
         Tu navegador no soporta videos HTML5.
     </video>
-    <h1>PDF Generator</h1>
     <div class="card1">
-        <p>Generador de facturas gratuito.</p>
-        <p>Este código pertenece al autor, cualquier copia del mismo puede ser denunciada</p>
+        <h1>Generador de facturas gratuito.</h1>
+        <p>Rellena los siguientes datos para crear la factura en pdf: </p>
         <form action="">
             <div class="column">
                 <label for="fname">NIF: </label>
@@ -31,9 +41,15 @@
                 <label for="direction">Importe: </label>
                 <input type="text" id="lname" name="lname" value=""><br><br>
             </div>
-            <input type="submit" value="Generate">
+            <button class="button">
+                Generar
+                <div class="hoverEffect">
+                    <div></div>
+                </div>
+            </button>
         </form>
-        <p> </p>
+        <p></p>
     </div>
 </body>
+
 </html>
