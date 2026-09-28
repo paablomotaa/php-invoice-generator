@@ -16,7 +16,7 @@
         <ul class="nav-links">
             <li><a href="#">Inicio</a></li>
             <li><a href="#">Mis Facturas</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="/facturador/public/contacto">Contacto</a></li>
         </ul>
     </nav>
     <video autoplay loop muted playsinline id="video-fondo">
