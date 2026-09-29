@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <title>Contacto</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo.css">
-    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="/facturador/public/css/estilo.css">
+    <link rel="stylesheet" href="/facturador/public/css/navbar.css">
 </head>
 
 <body>
@@ -19,7 +19,7 @@
         </ul>
     </nav>
     <video autoplay loop muted playsinline id="video-fondo">
-        <source src="background.mp4" type="video/mp4">
+        <source src="/facturador/public/media/background.mp4" type="video/mp4">
         Tu navegador no soporta videos HTML5.
     </video>
     <div class="card1">
