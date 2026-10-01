@@ -13,7 +13,7 @@ Un generador de facturas en PDF construido desde cero utilizando **PHP puro** (V
 ## 🛠️ Stack Tecnológico
 
 *   **Backend:** PHP 8+
-*   **Base de Datos:** MySQL / MariaDB (vía PDO) *(En desarrollo)*
+*   **Base de Datos:** MySQL / MariaDB (vía PDO (Laragon)) *(En desarrollo)*
 *   **Gestor de Dependencias:** Composer
 *   **Librerías principales:** 
     *   `dompdf/dompdf` (Generación de PDF)
